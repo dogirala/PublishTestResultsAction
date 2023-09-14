@@ -635,7 +635,7 @@ jobs:
     steps:
       - name: Docker meta
         id: docker-meta
-        uses: docker/metadata-action@v4
+        uses: docker/metadata-action@v5
         with:
           images: ghcr.io/EnricoMi/publish-unit-test-result-action
           flavor: |
